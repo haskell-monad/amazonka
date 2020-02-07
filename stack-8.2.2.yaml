@@ -17,9 +17,6 @@ packages:
   - test
   - examples
   - amazonka
-  - amazonka-elb  
-  - amazonka-redshift
-  - amazonka-route53
 # GENERATED
   - amazonka-alexa-business
   - amazonka-apigateway
@@ -75,7 +72,7 @@ packages:
   - amazonka-elasticbeanstalk
   - amazonka-elasticsearch
   - amazonka-elastictranscoder
-
+  - amazonka-elb
   - amazonka-elbv2
   - amazonka-emr
   - amazonka-fms
@@ -123,11 +120,11 @@ packages:
   - amazonka-polly
   - amazonka-pricing
   - amazonka-rds
-
+  - amazonka-redshift
   - amazonka-rekognition
   - amazonka-resourcegroups
   - amazonka-resourcegroupstagging
-
+  - amazonka-route53
   - amazonka-route53-autonaming
   - amazonka-route53-domains
   - amazonka-s3
