@@ -1,0 +1,17 @@
+{
+    "libraryName": "amazonka-emr",
+    "typeOverrides": {
+        "DescribeClusterOutput": {
+            "requiredFields": [
+                "Cluster"
+            ]
+        },
+        "Cluster": {
+            "requiredFields": [
+                "Id",
+                "Name",
+                "Status"
+            ]
+        }
+    }
+}

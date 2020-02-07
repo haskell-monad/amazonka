@@ -1,0 +1,11 @@
+{
+    "libraryName": "amazonka-ecs",
+    "typeOverrides": {
+        "Service": {
+            "renamedTo": "ContainerService"
+        }
+    },
+    "ignoredWaiters": [
+        "ServicesStable"
+    ]
+}

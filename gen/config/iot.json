@@ -1,0 +1,8 @@
+{
+    "libraryName": "amazonka-iot",
+    "typeOverrides": {
+        "Status": {
+            "renamedTo": "TaskStatus"
+        }
+    }
+}
