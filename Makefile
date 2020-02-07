@@ -1,5 +1,5 @@
 SERVICES  ?= $(wildcard amazonka-*)
-LIBRARIES ?= core amazonka test $(SERVICES)
+LIBRARIES ?= core amazonka elb redshift route53 test $(SERVICES)
 FORWARD   := upload upload-docs
 
 build:
