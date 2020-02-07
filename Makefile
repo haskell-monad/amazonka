@@ -27,5 +27,14 @@ amazonka:
 core:
 	stack build --fast amazonka-core
 
+elb:
+	stack build --fast amazonka-elb
+
+redshift:
+	stack build --fast amazonka-redshift
+
+route53:
+	stack build --fast amazonka-route53
+
 $(SERVICES):
 	stack build --fast $@
